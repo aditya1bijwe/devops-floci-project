@@ -1,0 +1,14 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraform.lock.hcl
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Node (for lambda-api later)
+node_modules/
